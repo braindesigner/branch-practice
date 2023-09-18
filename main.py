@@ -1,2 +1,7 @@
-for i in range(5):
-    print(f'hello for {i+1}th times')
+def print_hello(num: int):
+    """
+    Print hello
+    """
+    for i in range(num):
+        print(f'{i} 안녕')
+
